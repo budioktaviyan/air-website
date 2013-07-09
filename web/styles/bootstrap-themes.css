@@ -1,0 +1,23 @@
+body {
+	background-color: #F5F5F8;
+	padding-top: 20px;
+	padding-bottom: 60px;
+}
+
+/* Custom container */
+.container {
+	margin: 0 auto;
+	max-width: 1000px;
+}
+
+.container>hr {
+	margin: 60px 0;
+}
+
+[class^="icon-"],[class*=" icon-"] {
+	background-image: url("../assets/icons/glyphicons-halflings.png");
+}
+
+[class^="icon-white"],[class*=" icon-white"] {
+	background-image: url("../assets/icons/glyphicons-halflings-white.png");
+}
