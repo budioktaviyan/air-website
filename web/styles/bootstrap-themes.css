@@ -21,3 +21,33 @@ body {
 [class^="icon-white"],[class*=" icon-white"] {
 	background-image: url("../assets/icons/glyphicons-halflings-white.png");
 }
+
+.active-link {
+	background-color: #2E3436;
+}
+
+/* Start : Override Bootstrap carousel */
+.carousel-control {
+	border: none;
+}
+
+.left {
+	left: 0;
+}
+
+.right {
+	right: 0 !important;
+}
+/* End : Override Bootstrap carousel */
+
+/* Start : Override Bootstrap hero unit */
+.hero-unit {
+	background: none;
+	padding: 0 60px 0 60px;
+	margin: 0;
+}
+
+.hero-unit h1 {
+	margin: 10px 0 10px 0;
+}
+/* End : Override Bootstrap hero unit */
