@@ -1,0 +1,25 @@
+{
+    "name": "air-website",
+    "version": "3.0",
+    "authors": [
+        "Budi Oktaviyan Suryanto (budioktaviyans@gmailcom)"
+    ],
+    "description": "Official Website for Advanced Integrated Research, Inc",
+    "main": "index.html",
+    "keywords": [
+        "material",
+        "template"
+    ],
+    "homepage": "http://airsystem.id",
+    "private": true,
+    "ignore": [
+        "**/.*",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "bootstrap": "~3.3.x",
+        "bootstrap-material-design": "~0.3.x",
+        "jquery": "~2.1.x"
+    }
+}
